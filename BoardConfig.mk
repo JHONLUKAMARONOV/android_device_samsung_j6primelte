@@ -28,7 +28,6 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS :=  --kernel_offset 0x00008000 --ramdisk_offset 0x02000000 --second_offset 0x00f00000 --tags_offset 0x01e00000
 BOARD_FLASH_BLOCK_SIZE := 131072
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/j6primelte/bootimg.mk
 TARGET_PREBUILT_KERNEL := device/samsung/j6primelte/zImage-dtb
 
 # Partitions
