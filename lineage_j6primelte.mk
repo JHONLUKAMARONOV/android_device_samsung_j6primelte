@@ -33,12 +33,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 TARGET_VENDOR_PRODUCT_NAME := j6primelte
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="j6primeltedx-user 9 PPR1.180610.011 J415FXXU2BSDM release-keys"
+    PRIVATE_BUILD_DESC="j6primeltedx-user 9 PPR1.180610.011 J610FXXU2BSDM release-keys"
 
-BUILD_FINGERPRINT := "samsung/j6primeltedx/j4primelte:9/PPR1.180610.011/J415FXXU2BSDM:user/release-keys"
+BUILD_FINGERPRINT := "samsung/j6primeltedx/j6primelte:9/PPR1.180610.011/J610FXXU2BSDM:user/release-keys"
 
 # Device identifier
-PRODUCT_BRAND := samsung
+PRODUCT_BRAND := Samsung
 PRODUCT_DEVICE := j6primelte
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_NAME := lineage_j6primelte
