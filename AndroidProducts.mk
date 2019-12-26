@@ -23,9 +23,9 @@
 
 # inherit MI 8 Lite aosp device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_j6primelte.mk
+    $(LOCAL_DIR)/cos_j6primelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_j6primelte-eng \
-    lineage_j6primelte-userdebug \
-    lineage_j6primelte-user
+    cos_j6primelte-eng \
+    cos_j6primelte-userdebug \
+    cos_j6primelte-user
