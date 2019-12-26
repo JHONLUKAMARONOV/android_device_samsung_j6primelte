@@ -62,7 +62,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Vendor files
-$(call inherit-product, vendor/samsung/j4primelte/j6primelte-vendor.mk)
+$(call inherit-product, vendor/samsung/j6primelte/j6primelte-vendor.mk)
 
 # AOSP DEVICE
 PRODUCT_BRAND := samsung
