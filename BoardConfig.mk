@@ -30,6 +30,9 @@ DEVICE_PATH := device/samsung/j6primelte
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8917
 TARGET_KERNEL_CONFIG := j6primelte_defconfig
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+
 # Platform
 BOARD_VENDOR_PLATFORM := samsung-msm8917
 
