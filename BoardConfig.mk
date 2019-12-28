@@ -33,6 +33,9 @@ TARGET_KERNEL_CONFIG := j6primelte_defconfig
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
+# Fingerprint
+TARGET_SEC_FP_HAL_VARIANT := bauth
+
 # Platform
 BOARD_VENDOR_PLATFORM := samsung-msm8917
 
