@@ -31,7 +31,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 PRODUCT_DEVICE := j6primelte
 PRODUCT_NAME := omni_j6primelte
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := Galaxy J6+
+PRODUCT_MODEL := Samsung Galaxy J6+
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := phone
 PRODUCT_RELEASE_NAME := Samsung Galaxy J6+
+
+# HACK: Set vendor patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.security_patch=2099-12-31
